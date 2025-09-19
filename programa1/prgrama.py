@@ -1,4 +1,4 @@
-mensaje = "hello world";
+mensaje = "hello world"
 
-print(mensaje);
-print(type(mensaje));
+print(mensaje)
+print(type(mensaje))
