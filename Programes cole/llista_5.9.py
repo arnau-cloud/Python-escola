@@ -1,0 +1,11 @@
+text = "Python és uN Bon llenguatge  "
+t = text.upper()
+print (t)
+t = text.lower()
+print (t)
+t = text.strip()
+print (t)
+t = text.replace("e","3")
+print (t)
+posi = text.find("yth")
+print (posi)
