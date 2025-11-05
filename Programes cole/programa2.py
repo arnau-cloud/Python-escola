@@ -1,7 +1,5 @@
 import re
 
-
-
 while True:
     nombres = input("introdueix nombres separats per espais per fer llista aritmètica: ")
 
