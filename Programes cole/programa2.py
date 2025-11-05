@@ -1,17 +1,14 @@
 import re
 
-e = True
 
-while e == True:
+
+while True:
     nombres = input("introdueix nombres separats per espais per fer llista aritmètica: ")
 
     try:
-        print(nombres)
         nombres_separ = re.split("\\s", nombres)
-        print(nombres_separ)
         nombres_separ = list(map(float, nombres_separ))
-        print(nombres_separ)
-        e = False
+        break
 
     except:
         print("Error, introdueixx únicament nombres i separats per 1 espai")
