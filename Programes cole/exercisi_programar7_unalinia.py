@@ -1,0 +1,1 @@
+exec('nombre = int(input("Introdueix un nombre: "))\ntotal = int(); total += nombre\nwhile nombre > 0:\n\tnombre = int(input("Introdueix un nombre: "))\n\ttotal += nombre\nprint(total)')

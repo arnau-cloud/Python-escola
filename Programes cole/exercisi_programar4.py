@@ -1,9 +1,9 @@
 contrasenya = input("Introdueix una email: ")
-def iter(x, a):
-    b = 0
+def iter(x, y):
+    a = 0
     for i in x: 
-        if i == a: b += 1
-    return b
+        if i == a: a += 1
+    return a
 
 #print(list(map(lambda a: a == " ", list(contrasenya))))
 if (iter(contrasenya, "@") == 1) and (iter(contrasenya,".") >= 1):
