@@ -15,7 +15,6 @@ def generadorNombresParells(limit):
         num += 1
 
 retornaParells = generadorNombresParells(10)
-print(retornaParells)
 for i in retornaParells:
     print(f"\033[35m{i}", end=", ")
     print("\033[0m")
