@@ -1,6 +1,6 @@
 estacio = input("Introdueix una estació del any: ")
 
-if estacio.lower() != ("hivern", "estiu", "primavera", "tardor"):
+if not(estacio.lower() in ("hivern", "estiu", "primavera", "tardor")):
     print("La estació no es correcte")
 
 match estacio.lower():
